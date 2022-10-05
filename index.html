@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTyping.com</title>
+    <link rel="shortcut icon" href="./t favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./word_counter.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="heading">
+        Speed Typometer
+        <span>
+          <span id="minContainer"
+            ><span id="min">1</span> <span class="txt">minute</span></span
+          >
+          <span id="secContainer"
+            ><span id="sec">59</span> <span class="txt">seconds</span></span
+          >
+        </span>
+      </h1>
+      <div style="color: white; margin: 20px 5px;">
+        Technologies are artifacts made through a systematic application of
+        knowledge and used to reach practical goals. They are widely
+        used in medicine, science, industry, communication, transportation, and
+        daily life. Technologies include physical objects like utensils or
+        machines, as well as intangible tools like software. Many technological
+        advancements have led to societal changes. The earliest known technology
+        is the stone tool, used in the prehistoric era,[3] followed by fire use,
+        which contributed to the growth of the human brain and the development
+        of language in the Ice Age.[4] The invention of the wheel in the Bronze
+        Age enabled wider travel and the creation of more complex machines.[5]
+        Recent technological developments, including the printing press, the
+        telephone, and the Internet have lowered communication barriers and
+        ushered in the knowledge economy. While technology contributes to
+        economic development and human prosperity, it can also have negative
+        impacts like pollution or resource depletion, or cause social harms like
+        technological unemployment caused by automation.[6] As a result,
+        philosophical and political debates have arisen over the role and use of
+        technology, the ethics of technology, and the mitigation of technology's
+        potential downsides.[7] Historical and contemporary movements like
+        neo-Luddism and anarcho-primitivism criticize technology's
+        pervasiveness,[8] while adherents to transhumanism and
+        techno-progressivism actively support technological change, viewing it
+        as emancipatory.[9] Many negative impacts of technology can be mitigated
+        through technological innovations like renewable energy in
+        transportation and industry,[10] genetically modified crops to address
+        soil depletion,[11] and space exploration to mitigate global
+        catastrophic risks.[12]
+      </div>
+
+      <textarea
+        id="textbox"
+        cols="30"
+        rows="10"
+        placeholder="Please click on 'Start' button before typing speed measurement"
+      ></textarea>
+      <p class="para">
+        <span id="char">0</span> Character, <span id="word">0</span> Words.
+      </p>
+      <p id="tPara" class="para">
+        Your typing speed = <span id="tSpeed">0</span> Words/minute
+      </p>
+    </div>
+
+    <div id="timer" onin>
+      <button id="btn" onclick="start()">Start</button>
+    </div>
+    <script src="./word_counter.js"></script>
+  </body>
+</html>

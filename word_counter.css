@@ -1,0 +1,64 @@
+body {
+  margin: 5 20px;
+  text-align: center;
+  background: url(../Temperature_converter/second.jpg);
+ 
+}
+#container {
+  border: 2px solid blue;
+  height: 360px;
+  /* background:rgb(78, 64, 116); */
+}
+.heading {
+    background: url(../Temperature_converter/third.jfif);
+  margin: 0px;
+}
+#textbox {
+  width: 99.1%;
+  height: 60%;
+  font-size: 20px;
+  background: url(../Temperature_converter/second.jpg);
+  color: white;
+}
+.para {
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: blue;
+  background:rgb(213, 255, 236);
+  
+}
+#tSpeed,#word,#char{
+    font-weight: bold;
+    color: black;
+}
+#tPara{
+    display: none;
+}
+
+#secContainer{
+    display: none;
+}
+#btn{
+    font-size: 25px;
+    margin: 20px 15px;
+    padding: 9px 15px;
+    border: 2px solid  rgb(131, 36, 208) ;
+    cursor: pointer;
+    border-radius: 5px;
+    background: url(../Temperature_converter/third.jfif);
+    font-weight: bold;
+
+
+}
+#timer{
+    font-size: 25px;
+}
+#minContainer,#secContainer{
+    background-color: red;
+    
+    padding: 10px;
+    float: right;
+    font-size: 18px;
+
+}
+
